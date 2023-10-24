@@ -1,5 +1,5 @@
 class ScrapedLinksController < ApplicationController
-  before_action :set_scraped_link, only: %i[ show edit update destroy ]
+  before_action :set_scraped_link, only: %i[ show destroy ]
 
   # GET /scraped_links or /scraped_links.json
   def index
@@ -23,27 +23,17 @@ class ScrapedLinksController < ApplicationController
   def create
     @scraped_link = ScrapedLink.new(scraped_link_params)
 
-    respond_to do |format|
-      if @scraped_link.save
-        format.html { redirect_to scraped_link_url(@scraped_link), notice: "Scraped link was successfully created." }
-        format.json { render :show, status: :created, location: @scraped_link }
+    if @scraped_link.save
+      binding.break
+      # TODO - make it a sidekiq per event basis
+      web_scraper = WebScraperService.new(@scraped_link.id).run
+      if web_scraper[:success]
+        redirect_to scraped_links_url, notice: "Scraped link was successfully created."
       else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @scraped_link.errors, status: :unprocessable_entity }
+        render :new, status: :unprocessable_entity 
       end
-    end
-  end
-
-  # PATCH/PUT /scraped_links/1 or /scraped_links/1.json
-  def update
-    respond_to do |format|
-      if @scraped_link.update(scraped_link_params)
-        format.html { redirect_to scraped_link_url(@scraped_link), notice: "Scraped link was successfully updated." }
-        format.json { render :show, status: :ok, location: @scraped_link }
-      else
-        format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @scraped_link.errors, status: :unprocessable_entity }
-      end
+    else
+      render :new, status: :unprocessable_entity 
     end
   end
 
@@ -53,7 +43,6 @@ class ScrapedLinksController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to scraped_links_url, notice: "Scraped link was successfully destroyed." }
-      format.json { head :no_content }
     end
   end
 
@@ -65,6 +54,6 @@ class ScrapedLinksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def scraped_link_params
-      params.require(:scraped_link).permit(:name, :link, :total)
+      params.require(:scraped_link).permit(:link)
     end
 end

@@ -1,10 +1,6 @@
 <p style="color: green"><%= notice %></p>
-
 <%= render @scraped_link %>
-
 <div>
-  <%= link_to "Edit this scraped link", edit_scraped_link_path(@scraped_link) %> |
   <%= link_to "Back to scraped links", scraped_links_path %>
-
   <%= button_to "Destroy this scraped link", @scraped_link, method: :delete %>
 </div>
