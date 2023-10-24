@@ -15,7 +15,8 @@ class WebScraperService
         href = link_tag['href']
         content = link_tag.text
 
-        links << { href: href, content: content }
+        # some <a> tags seem to have js based href content, this filters for url's only
+        links << { href: href, content: content } if href.include?('http')
       end
 
       links.map { |link| create_individual_link(link) }

@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
   
   root to: "home#index"
-  resources :scraped_links, except: %i[edit update]
+  resources :scraped_links, except: %i[new edit update]
 end
