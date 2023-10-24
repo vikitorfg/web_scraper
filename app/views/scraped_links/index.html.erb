@@ -1,14 +1,42 @@
-<p style="color: green"><%= notice %></p>
-
-<h1>Scraped links</h1>
-
-<div id="scraped_links">
-  <% @scraped_links.each do |scraped_link| %>
-    <%= render scraped_link %>
-    <p>
-      <%= link_to "Show this scraped link", scraped_link %>
-    </p>
-  <% end %>
-</div>
-
-<%= link_to "New scraped link", new_scraped_link_path %>
+<section class="section">
+  <p class="has-text-success"><%= notice %></p>
+  <h1 class="title">Scraped links</h1>
+  <div class="container mb-6">
+    <%= form_with(model: ScrapedLink.new, url: scraped_links_path, local: true, method: :post, class: 'form-container') do |form| %>
+      <div class="box is-flex is-flex-direction-row is-flex-wrap-nowrap">
+        <div class="field is-flex-grow-5 mr-5">
+          <div class="control">
+            <%= form.text_field :link, class: 'input form-input' %>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <%= form.submit "Scrape", class: 'button is-primary form-button' %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="container mb-6">
+    <div class="box">
+      <table class="table is-fullwidth">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @scraped_links.each do |scraped_link| %>
+            <tr>
+              <td>
+                <%= link_to scraped_link.name, scraped_link, class: 'has-text-primary' %>
+              </td>
+              <td><%= scraped_link.total %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

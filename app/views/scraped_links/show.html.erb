@@ -1,6 +1,23 @@
 <p style="color: green"><%= notice %></p>
-<%= render @scraped_link %>
-<div>
-  <%= link_to "Back to scraped links", scraped_links_path %>
-  <%= button_to "Destroy this scraped link", @scraped_link, method: :delete %>
+<div class="container mb-6 mt-6">
+  <div class="box">
+    <div class="content is-flex is-justify-content-center">
+      <h1><%= @scraped_link.name %></h1>
+    </div>
+    <div>
+      <%= link_to "Back to scraped links", scraped_links_path, class: 'button is-info' %>
+    </div>
+    <table class="table is-fullwidth">
+      <tbody>
+        <th><strong>Name:</strong></th>
+        <th><strong>Link:</strong></th>
+        <% @scraped_link.individual_links.each do |ind_link| %>
+          <tr>
+            <td><%= ind_link.name %></td>
+            <td><%= ind_link.url %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
 </div>

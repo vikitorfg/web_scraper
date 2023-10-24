@@ -19,6 +19,9 @@ gem "bootsnap", require: false
 gem 'nokogiri', '~> 1.15', '>= 1.15.4'
 gem 'faraday', '~> 2.7', '>= 2.7.11'
 
+# CSS
+gem 'bulma-rails', '~> 0.9.4'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
