@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Scraped links</h1>
+
+<div id="scraped_links">
+  <% @scraped_links.each do |scraped_link| %>
+    <%= render scraped_link %>
+    <p>
+      <%= link_to "Show this scraped link", scraped_link %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New scraped link", new_scraped_link_path %>
