@@ -2,20 +2,7 @@
   <p class="has-text-success"><%= notice %></p>
   <h1 class="title">Scraped links</h1>
   <div class="container mb-6">
-    <%= form_with(model: ScrapedLink.new, url: scraped_links_path, local: true, method: :post, class: 'form-container') do |form| %>
-      <div class="box is-flex is-flex-direction-row is-flex-wrap-nowrap">
-        <div class="field is-flex-grow-5 mr-5">
-          <div class="control">
-            <%= form.text_field :link, class: 'input form-input' %>
-          </div>
-        </div>
-        <div class="field">
-          <div class="control">
-            <%= form.submit "Scrape", class: 'button is-primary form-button' %>
-          </div>
-        </div>
-      </div>
-    <% end %>
+    <%= render 'form'%>
   </div>
   <div class="container mb-6">
     <div class="box">
