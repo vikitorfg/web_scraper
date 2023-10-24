@@ -11,7 +11,7 @@
       <tbody>
         <th><strong>Name:</strong></th>
         <th><strong>Link:</strong></th>
-        <% @scraped_link.individual_links.each do |ind_link| %>
+        <% @individual_links.each do |ind_link| %>
           <tr>
             <td><%= ind_link.name %></td>
             <td><%= ind_link.url %></td>
@@ -19,5 +19,6 @@
         <% end %>
       </tbody>
     </table>
+    <%== pagy_bulma_nav(@pagy) %>
   </div>
 </div>

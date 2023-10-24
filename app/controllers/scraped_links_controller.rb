@@ -3,11 +3,13 @@ class ScrapedLinksController < ApplicationController
 
   # GET /scraped_links or /scraped_links.json
   def index
-    @scraped_links = ScrapedLink.all.order(created_at: :desc)
+    scraped_links = ScrapedLink.all.order(created_at: :desc)
+    @pagy, @scraped_links = pagy(scraped_links)
   end
 
   # GET /scraped_links/1 or /scraped_links/1.json
   def show
+    @pagy, @individual_links = pagy(@scraped_link.individual_links)
   end
 
   # POST /scraped_links or /scraped_links.json

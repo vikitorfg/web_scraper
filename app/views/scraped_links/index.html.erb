@@ -17,13 +17,14 @@
           <% @scraped_links.each do |scraped_link| %>
             <tr>
               <td>
-                <%= link_to scraped_link.name, scraped_link, class: 'has-text-primary' %>
+                <%= link_to scraped_link.name, scraped_link, class: 'has-text-info' %>
               </td>
               <td><%= scraped_link.total %></td>
             </tr>
           <% end %>
         </tbody>
       </table>
+      <%== pagy_bulma_nav(@pagy) %>
     </div>
   </div>
 </section>
