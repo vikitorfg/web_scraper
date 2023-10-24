@@ -4,7 +4,6 @@ class WebScraperService
   end
 
   def run
-    # scraped_links = ScrapedLink.find(@reference)
     response = Faraday.get(@scraped_link.link)
 
     if response.success?
@@ -19,6 +18,8 @@ class WebScraperService
         links << { href: href, content: content }
       end
 
+      links.map { |link| create_individual_link(link) }
+
       # This should probably go in the worker later, perhaps?
       if @scraped_link.update(total: links.count)
         return { success: true, model: @scraped_link }
@@ -29,5 +30,9 @@ class WebScraperService
       # Handle the case where the GET request is not successful
       return { success: false, errors: response.errors }
     end
+  end
+
+  def create_individual_link(link)
+    IndividualLink.create(scraped_link: @scraped_link, url: link[:href], name: link[:content])
   end
 end

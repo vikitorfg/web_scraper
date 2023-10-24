@@ -24,7 +24,6 @@ class ScrapedLinksController < ApplicationController
     @scraped_link = ScrapedLink.new(scraped_link_params)
 
     if @scraped_link.save
-      binding.break
       # TODO - make it a sidekiq per event basis
       web_scraper = WebScraperService.new(@scraped_link.id).run
       if web_scraper[:success]

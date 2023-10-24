@@ -1,5 +1,7 @@
 class ScrapedLink < ApplicationRecord
-  enum status: { draft: 0, loading: 1, completed: 2, error: 3 }
+  has_many :individual_links
+
+  enum status: { in_progress: 0, completed: 1, error: 2 }
 
   validates :link, presence: true
   validates :name, presence: true
@@ -14,9 +16,9 @@ class ScrapedLink < ApplicationRecord
     self.name ||= extract_domain_from_link
   end
 
-  # Set the default status to 'draft' for new records
+  # Set the default status to 'in_progress' for new records
   def set_default_status
-    self.status ||= :draft
+    self.status ||= :in_progress
   end
 
   # Extract text between "www." and the top-level domain (TLD) in the link
