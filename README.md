@@ -33,7 +33,14 @@ bundle install --redownload
 source: [https://github.com/puma/puma/issues/2790#issuecomment-1547332463](https://github.com/puma/puma/issues/2790#issuecomment-1547332463)
 
 ## How to use it:
-spin up rails s  
+run
+```
+rails db:create db:migrate
+```
+spin up 
+```
+rails s  
+```
 navigate to local host
 register with as a user
 paste a link on the input in the top of the page, press ‘scrape’  
