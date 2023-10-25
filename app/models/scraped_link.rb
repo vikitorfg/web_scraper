@@ -7,12 +7,17 @@ class ScrapedLink < ApplicationRecord
   validates :link, presence: true
 
   after_initialize :set_default_status, if: :new_record?
+  before_create :set_provisory_name
 
   private
 
   # Set the default status to 'in_progress' for new records
   def set_default_status
     self.status ||= :in_progress
+  end
+
+  def set_provisory_name
+    self.name = extract_domain_from_link
   end
 
   # Extract text between "www." and the top-level domain (TLD) in the link

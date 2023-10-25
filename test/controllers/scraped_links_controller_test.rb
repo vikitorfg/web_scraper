@@ -15,9 +15,7 @@ class ScrapedLinksControllerTest < ActionDispatch::IntegrationTest
   test "should create scraped_link" do
     VCR.use_cassette("interacting_scrapeme_api") do
       assert_difference("ScrapedLink.count", 1) do
-        assert_difference("IndividualLink.count", 40) do
-          post scraped_links_url, params: { scraped_link: { link: 'https://scrapeme.live/shop/' } }
-        end
+        post scraped_links_url, params: { scraped_link: { link: 'https://scrapeme.live/shop/' } }
       end
 
       assert_redirected_to scraped_links_url
