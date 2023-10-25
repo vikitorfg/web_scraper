@@ -9,6 +9,7 @@ class WebScraperService
     if response.success?
       # Parse the HTML content using Nokogiri
       doc = Nokogiri::HTML(response.body)
+      name = doc.at_css('title').text || 'title not found'
       links = []
 
       doc.css('a').each do |link_tag|
@@ -22,7 +23,7 @@ class WebScraperService
       links.map { |link| create_individual_link(link) }
 
       # This should probably go in the worker later, perhaps?
-      if @scraped_link.update(total: links.count)
+      if @scraped_link.update(total: links.count, name: name)
         return { success: true, model: @scraped_link }
       end
 

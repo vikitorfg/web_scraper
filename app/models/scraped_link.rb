@@ -5,17 +5,10 @@ class ScrapedLink < ApplicationRecord
   enum status: { in_progress: 0, completed: 1, error: 2 }
 
   validates :link, presence: true
-  validates :name, presence: true
 
-  before_validation :set_name, on: :create
   after_initialize :set_default_status, if: :new_record?
 
   private
-
-  # Set the name based on the domain extracted from the link
-  def set_name
-    self.name ||= extract_domain_from_link
-  end
 
   # Set the default status to 'in_progress' for new records
   def set_default_status

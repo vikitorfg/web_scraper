@@ -14,8 +14,9 @@ class WebScraperServiceTest < ActiveSupport::TestCase
       end
     end
 
-    assert_equal(scraped_link.individual_links.pluck(:name), individual_links_names)
-    assert_equal(scraped_link.individual_links.pluck(:url), individual_links_urls)
+    assert_equal('Squirtle – ScrapeMe', scraped_link.reload.name)
+    assert_equal(individual_links_names, scraped_link.individual_links.pluck(:name))
+    assert_equal(individual_links_urls, scraped_link.individual_links.pluck(:url))
   end
 
   def individual_links_names
