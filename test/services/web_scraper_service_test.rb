@@ -1,8 +1,11 @@
 require 'test_helper'
 
 class WebScraperServiceTest < ActiveSupport::TestCase
+  fixtures :users
+
   test "it should scrape the url and create individual_links objects" do
-    scraped_link = ScrapedLink.create(link: 'https://scrapeme.live/shop/Squirtle/')
+    user = users(:user)
+    scraped_link = ScrapedLink.create(link: 'https://scrapeme.live/shop/Squirtle/', user: user)
     service = WebScraperService.new(scraped_link.id)
 
     VCR.use_cassette("interacting_scrapeme_squirtle_api") do

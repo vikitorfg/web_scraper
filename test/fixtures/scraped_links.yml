@@ -4,8 +4,10 @@ one:
   name: scrapeme
   link: https://scrapeme.live/shop/
   total: 11
+  user: user
 
 two:
   name: scrapeme
   link: https://scrapeme.live/shop/Wartortle/
   total: 13
+  user: user

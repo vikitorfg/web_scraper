@@ -3,6 +3,8 @@ require "test_helper"
 class ScrapedLinksControllerTest < ActionDispatch::IntegrationTest
   setup do
     @scraped_link = scraped_links(:one)
+    @user = users(:user)
+    sign_in_user
   end
 
   test "should get index" do
@@ -33,5 +35,9 @@ class ScrapedLinksControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to scraped_links_url
+  end
+
+  def sign_in_user
+    post user_session_path, params: { user: { email: @user.email, password: 'password' } }
   end
 end

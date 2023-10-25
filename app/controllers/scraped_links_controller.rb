@@ -33,6 +33,7 @@ class ScrapedLinksController < ApplicationController
 
   # DELETE /scraped_links/1 or /scraped_links/1.json
   def destroy
+    authorize @scraped_link, :destroy?
     @scraped_link.destroy!
 
     respond_to do |format|
