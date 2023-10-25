@@ -1,0 +1,483 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://scrapeme.live/shop/Squirtle/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Wed, 25 Oct 2023 00:36:40 GMT
+      server:
+      - Apache/2.4.41 (Ubuntu)
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      pragma:
+      - no-cache
+      link:
+      - <https://scrapeme.live/wp-json/>; rel="https://api.w.org/", <https://scrapeme.live/?p=734>;
+        rel=shortlink
+      set-cookie:
+      - PHPSESSID=asj58o71n620o5houttkuvetni; path=/
+      upgrade:
+      - h2,h2c
+      connection:
+      - Upgrade, close
+      vary:
+      - Accept-Encoding
+      content-encoding:
+      - gzip
+      content-length:
+      - '9680'
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "\n<!doctype html>\n<html lang=\"en-GB\">\n<head>\n<meta charset=\"UTF-8\">\n<meta
+        name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0\">\n<link
+        rel=\"profile\" href=\"http://gmpg.org/xfn/11\">\n<link rel=\"pingback\" href=\"https://scrapeme.live/xmlrpc.php\">\n\n<title>Squirtle
+        &#8211; ScrapeMe</title>\n<link rel='dns-prefetch' href='//fonts.googleapis.com'
+        />\n<link rel='dns-prefetch' href='//s.w.org' />\n<link rel=\"alternate\"
+        type=\"application/rss+xml\" title=\"ScrapeMe &raquo; Feed\" href=\"https://scrapeme.live/feed/\"
+        />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"ScrapeMe
+        &raquo; Comments Feed\" href=\"https://scrapeme.live/comments/feed/\" />\n<link
+        rel=\"alternate\" type=\"application/rss+xml\" title=\"ScrapeMe &raquo; Squirtle
+        Comments Feed\" href=\"https://scrapeme.live/shop/Squirtle/feed/\" />\n\t\t<script
+        type=\"text/javascript\">\n\t\t\twindow._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/scrapeme.live\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=4.9.24\"}};\n\t\t\t!function(e,a,t){var
+        n,r,o,i=a.createElement(\"canvas\"),p=i.getContext&&i.getContext(\"2d\");function
+        s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return
+        p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function
+        c(e){var t=a.createElement(\"script\");t.src=e,t.defer=t.type=\"text/javascript\",a.getElementsByTagName(\"head\")[0].appendChild(t)}for(o=Array(\"flag\",\"emoji\"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline=\"top\",p.font=\"600
+        32px Arial\",e){case\"flag\":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case\"emoji\":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],\"flag\"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener(\"DOMContentLoaded\",n,!1),e.addEventListener(\"load\",n,!1)):(e.attachEvent(\"onload\",n),a.attachEvent(\"onreadystatechange\",function(){\"complete\"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);\n\t\t</script>\n\t\t<style
+        type=\"text/css\">\nimg.wp-smiley,\nimg.emoji {\n\tdisplay: inline !important;\n\tborder:
+        none !important;\n\tbox-shadow: none !important;\n\theight: 1em !important;\n\twidth:
+        1em !important;\n\tmargin: 0 .07em !important;\n\tvertical-align: -0.1em !important;\n\tbackground:
+        none !important;\n\tpadding: 0 !important;\n}\n</style>\n<link rel='stylesheet'
+        id='epl-css-lib-css'  href='https://scrapeme.live/wp-content/plugins/easy-property-listings/lib/assets/css/style-structure.css?ver=3.2.2'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='epl-style-css'
+        \ href='https://scrapeme.live/wp-content/plugins/easy-property-listings/lib/assets/css/style.css?ver=3.2.2'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='bbp-default-css'
+        \ href='https://scrapeme.live/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.14-6684'
+        type='text/css' media='screen' />\n<link rel='stylesheet' id='simple-job-board-google-fonts-css'
+        \ href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i&#038;ver=2.6.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='simple-job-board-font-awesome-css'
+        \ href='https://scrapeme.live/wp-content/plugins/simple-job-board/public/css/font-awesome.min.css?ver=4.7.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='simple-job-board-jquery-ui-css'
+        \ href='https://scrapeme.live/wp-content/plugins/simple-job-board/public/css/jquery-ui.css?ver=1.12.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='simple-job-board-frontend-css'
+        \ href='https://scrapeme.live/wp-content/plugins/simple-job-board/public/css/simple-job-board-public.css?ver=3.0.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='photoswipe-css'
+        \ href='https://scrapeme.live/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.css?ver=3.4.8'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='photoswipe-default-skin-css'
+        \ href='https://scrapeme.live/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.css?ver=3.4.8'
+        type='text/css' media='all' />\n<style id='woocommerce-inline-inline-css'
+        type='text/css'>\n.woocommerce form .form-row .required { visibility: visible;
+        }\n</style>\n<link rel='stylesheet' id='storefront-style-css'  href='https://scrapeme.live/wp-content/themes/storefront/style.css?ver=2.3.3'
+        type='text/css' media='all' />\n<style id='storefront-style-inline-css' type='text/css'>\n\n\t\t\t.main-navigation
+        ul li a,\n\t\t\t.site-title a,\n\t\t\tul.menu li a,\n\t\t\t.site-branding
+        h1 a,\n\t\t\t.site-footer .storefront-handheld-footer-bar a:not(.button),\n\t\t\tbutton.menu-toggle,\n\t\t\tbutton.menu-toggle:hover,\n\t\t\t.handheld-navigation
+        .dropdown-toggle {\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\tbutton.menu-toggle,\n\t\t\tbutton.menu-toggle:hover
+        {\n\t\t\t\tborder-color: #333333;\n\t\t\t}\n\n\t\t\t.main-navigation ul li
+        a:hover,\n\t\t\t.main-navigation ul li:hover > a,\n\t\t\t.site-title a:hover,\n\t\t\ta.cart-contents:hover,\n\t\t\t.site-header-cart
+        .widget_shopping_cart a:hover,\n\t\t\t.site-header-cart:hover > li > a,\n\t\t\t.site-header
+        ul.menu li.current-menu-item > a {\n\t\t\t\tcolor: #747474;\n\t\t\t}\n\n\t\t\ttable
+        th {\n\t\t\t\tbackground-color: #f8f8f8;\n\t\t\t}\n\n\t\t\ttable tbody td
+        {\n\t\t\t\tbackground-color: #fdfdfd;\n\t\t\t}\n\n\t\t\ttable tbody tr:nth-child(2n)
+        td,\n\t\t\tfieldset,\n\t\t\tfieldset legend {\n\t\t\t\tbackground-color: #fbfbfb;\n\t\t\t}\n\n\t\t\t.site-header,\n\t\t\t.secondary-navigation
+        ul ul,\n\t\t\t.main-navigation ul.menu > li.menu-item-has-children:after,\n\t\t\t.secondary-navigation
+        ul.menu ul,\n\t\t\t.storefront-handheld-footer-bar,\n\t\t\t.storefront-handheld-footer-bar
+        ul li > a,\n\t\t\t.storefront-handheld-footer-bar ul li.search .site-search,\n\t\t\tbutton.menu-toggle,\n\t\t\tbutton.menu-toggle:hover
+        {\n\t\t\t\tbackground-color: #ffffff;\n\t\t\t}\n\n\t\t\tp.site-description,\n\t\t\t.site-header,\n\t\t\t.storefront-handheld-footer-bar
+        {\n\t\t\t\tcolor: #404040;\n\t\t\t}\n\n\t\t\t.storefront-handheld-footer-bar
+        ul li.cart .count,\n\t\t\tbutton.menu-toggle:after,\n\t\t\tbutton.menu-toggle:before,\n\t\t\tbutton.menu-toggle
+        span:before {\n\t\t\t\tbackground-color: #333333;\n\t\t\t}\n\n\t\t\t.storefront-handheld-footer-bar
+        ul li.cart .count {\n\t\t\t\tcolor: #ffffff;\n\t\t\t}\n\n\t\t\t.storefront-handheld-footer-bar
+        ul li.cart .count {\n\t\t\t\tborder-color: #ffffff;\n\t\t\t}\n\n\t\t\th1,
+        h2, h3, h4, h5, h6 {\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\t.widget h1
+        {\n\t\t\t\tborder-bottom-color: #333333;\n\t\t\t}\n\n\t\t\tbody,\n\t\t\t.secondary-navigation
+        a,\n\t\t\t.onsale,\n\t\t\t.pagination .page-numbers li .page-numbers:not(.current),
+        .woocommerce-pagination .page-numbers li .page-numbers:not(.current) {\n\t\t\t\tcolor:
+        #6d6d6d;\n\t\t\t}\n\n\t\t\t.widget-area .widget a,\n\t\t\t.hentry .entry-header
+        .posted-on a,\n\t\t\t.hentry .entry-header .byline a {\n\t\t\t\tcolor: #727272;\n\t\t\t}\n\n\t\t\ta
+        \ {\n\t\t\t\tcolor: #96588a;\n\t\t\t}\n\n\t\t\ta:focus,\n\t\t\t.button:focus,\n\t\t\t.button.alt:focus,\n\t\t\t.button.added_to_cart:focus,\n\t\t\t.button.wc-forward:focus,\n\t\t\tbutton:focus,\n\t\t\tinput[type=\"button\"]:focus,\n\t\t\tinput[type=\"reset\"]:focus,\n\t\t\tinput[type=\"submit\"]:focus
+        {\n\t\t\t\toutline-color: #96588a;\n\t\t\t}\n\n\t\t\tbutton, input[type=\"button\"],
+        input[type=\"reset\"], input[type=\"submit\"], .button, .added_to_cart, .widget
+        a.button, .site-header-cart .widget_shopping_cart a.button {\n\t\t\t\tbackground-color:
+        #eeeeee;\n\t\t\t\tborder-color: #eeeeee;\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\tbutton:hover,
+        input[type=\"button\"]:hover, input[type=\"reset\"]:hover, input[type=\"submit\"]:hover,
+        .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart
+        .widget_shopping_cart a.button:hover {\n\t\t\t\tbackground-color: #d5d5d5;\n\t\t\t\tborder-color:
+        #d5d5d5;\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\tbutton.alt, input[type=\"button\"].alt,
+        input[type=\"reset\"].alt, input[type=\"submit\"].alt, .button.alt, .added_to_cart.alt,
+        .widget-area .widget a.button.alt, .added_to_cart, .widget a.button.checkout
+        {\n\t\t\t\tbackground-color: #333333;\n\t\t\t\tborder-color: #333333;\n\t\t\t\tcolor:
+        #ffffff;\n\t\t\t}\n\n\t\t\tbutton.alt:hover, input[type=\"button\"].alt:hover,
+        input[type=\"reset\"].alt:hover, input[type=\"submit\"].alt:hover, .button.alt:hover,
+        .added_to_cart.alt:hover, .widget-area .widget a.button.alt:hover, .added_to_cart:hover,
+        .widget a.button.checkout:hover {\n\t\t\t\tbackground-color: #1a1a1a;\n\t\t\t\tborder-color:
+        #1a1a1a;\n\t\t\t\tcolor: #ffffff;\n\t\t\t}\n\n\t\t\t.pagination .page-numbers
+        li .page-numbers.current, .woocommerce-pagination .page-numbers li .page-numbers.current
+        {\n\t\t\t\tbackground-color: #e6e6e6;\n\t\t\t\tcolor: #636363;\n\t\t\t}\n\n\t\t\t#comments
+        .comment-list .comment-content .comment-text {\n\t\t\t\tbackground-color:
+        #f8f8f8;\n\t\t\t}\n\n\t\t\t.site-footer {\n\t\t\t\tbackground-color: #f0f0f0;\n\t\t\t\tcolor:
+        #6d6d6d;\n\t\t\t}\n\n\t\t\t.site-footer a:not(.button) {\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\t.site-footer
+        h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer
+        h6 {\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\t.page-template-template-homepage.has-post-thumbnail
+        .type-page.has-post-thumbnail .entry-title {\n\t\t\t\tcolor: #000000;\n\t\t\t}\n\n\t\t\t.page-template-template-homepage.has-post-thumbnail
+        .type-page.has-post-thumbnail .entry-content {\n\t\t\t\tcolor: #000000;\n\t\t\t}\n\n\t\t\t#order_review
+        {\n\t\t\t\tbackground-color: #ffffff;\n\t\t\t}\n\n\t\t\t#payment .payment_methods
+        > li .payment_box,\n\t\t\t#payment .place-order {\n\t\t\t\tbackground-color:
+        #fafafa;\n\t\t\t}\n\n\t\t\t#payment .payment_methods > li:not(.woocommerce-notice)
+        {\n\t\t\t\tbackground-color: #f5f5f5;\n\t\t\t}\n\n\t\t\t#payment .payment_methods
+        > li:not(.woocommerce-notice):hover {\n\t\t\t\tbackground-color: #f0f0f0;\n\t\t\t}\n\n\t\t\t@media
+        screen and ( min-width: 768px ) {\n\t\t\t\t.secondary-navigation ul.menu a:hover
+        {\n\t\t\t\t\tcolor: #595959;\n\t\t\t\t}\n\n\t\t\t\t.secondary-navigation ul.menu
+        a {\n\t\t\t\t\tcolor: #404040;\n\t\t\t\t}\n\n\t\t\t\t.site-header-cart .widget_shopping_cart,\n\t\t\t\t.main-navigation
+        ul.menu ul.sub-menu,\n\t\t\t\t.main-navigation ul.nav-menu ul.children {\n\t\t\t\t\tbackground-color:
+        #f0f0f0;\n\t\t\t\t}\n\n\t\t\t\t.site-header-cart .widget_shopping_cart .buttons,\n\t\t\t\t.site-header-cart
+        .widget_shopping_cart .total {\n\t\t\t\t\tbackground-color: #f5f5f5;\n\t\t\t\t}\n\n\t\t\t\t.site-header
+        {\n\t\t\t\t\tborder-bottom-color: #f0f0f0;\n\t\t\t\t}\n\t\t\t}.storefront-product-pagination
+        a {\n\t\t\t\t\tcolor: #6d6d6d;\n\t\t\t\t\tbackground-color: #ffffff;\n\t\t\t\t}\n\t\t\t\t.storefront-sticky-add-to-cart
+        {\n\t\t\t\t\tcolor: #6d6d6d;\n\t\t\t\t\tbackground-color: #ffffff;\n\t\t\t\t}\n\n\t\t\t\t.storefront-sticky-add-to-cart
+        a:not(.button) {\n\t\t\t\t\tcolor: #333333;\n\t\t\t\t}\n</style>\n<link rel='stylesheet'
+        id='storefront-icons-css'  href='https://scrapeme.live/wp-content/themes/storefront/assets/css/base/icons.css?ver=2.3.3'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='storefront-fonts-css'
+        \ href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&#038;subset=latin%2Clatin-ext'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='storefront-woocommerce-style-css'
+        \ href='https://scrapeme.live/wp-content/themes/storefront/assets/css/woocommerce/woocommerce.css?ver=2.3.3'
+        type='text/css' media='all' />\n<style id='storefront-woocommerce-style-inline-css'
+        type='text/css'>\n\n\t\t\ta.cart-contents,\n\t\t\t.site-header-cart .widget_shopping_cart
+        a {\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\ttable.cart td.product-remove,\n\t\t\ttable.cart
+        td.actions {\n\t\t\t\tborder-top-color: #ffffff;\n\t\t\t}\n\n\t\t\t.woocommerce-tabs
+        ul.tabs li.active a,\n\t\t\tul.products li.product .price,\n\t\t\t.onsale,\n\t\t\t.widget_search
+        form:before,\n\t\t\t.widget_product_search form:before {\n\t\t\t\tcolor: #6d6d6d;\n\t\t\t}\n\n\t\t\t.woocommerce-breadcrumb
+        a,\n\t\t\ta.woocommerce-review-link,\n\t\t\t.product_meta a {\n\t\t\t\tcolor:
+        #727272;\n\t\t\t}\n\n\t\t\t.onsale {\n\t\t\t\tborder-color: #6d6d6d;\n\t\t\t}\n\n\t\t\t.star-rating
+        span:before,\n\t\t\t.quantity .plus, .quantity .minus,\n\t\t\tp.stars a:hover:after,\n\t\t\tp.stars
+        a:after,\n\t\t\t.star-rating span:before,\n\t\t\t#payment .payment_methods
+        li input[type=radio]:first-child:checked+label:before {\n\t\t\t\tcolor: #96588a;\n\t\t\t}\n\n\t\t\t.widget_price_filter
+        .ui-slider .ui-slider-range,\n\t\t\t.widget_price_filter .ui-slider .ui-slider-handle
+        {\n\t\t\t\tbackground-color: #96588a;\n\t\t\t}\n\n\t\t\t.order_details {\n\t\t\t\tbackground-color:
+        #f8f8f8;\n\t\t\t}\n\n\t\t\t.order_details > li {\n\t\t\t\tborder-bottom: 1px
+        dotted #e3e3e3;\n\t\t\t}\n\n\t\t\t.order_details:before,\n\t\t\t.order_details:after
+        {\n\t\t\t\tbackground: -webkit-linear-gradient(transparent 0,transparent 0),-webkit-linear-gradient(135deg,#f8f8f8
+        33.33%,transparent 33.33%),-webkit-linear-gradient(45deg,#f8f8f8 33.33%,transparent
+        33.33%)\n\t\t\t}\n\n\t\t\tp.stars a:before,\n\t\t\tp.stars a:hover~a:before,\n\t\t\tp.stars.selected
+        a.active~a:before {\n\t\t\t\tcolor: #6d6d6d;\n\t\t\t}\n\n\t\t\tp.stars.selected
+        a.active:before,\n\t\t\tp.stars:hover a:before,\n\t\t\tp.stars.selected a:not(.active):before,\n\t\t\tp.stars.selected
+        a.active:before {\n\t\t\t\tcolor: #96588a;\n\t\t\t}\n\n\t\t\t.single-product
+        div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger
+        {\n\t\t\t\tbackground-color: #eeeeee;\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\t.single-product
+        div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover
+        {\n\t\t\t\tbackground-color: #d5d5d5;\n\t\t\t\tborder-color: #d5d5d5;\n\t\t\t\tcolor:
+        #333333;\n\t\t\t}\n\n\t\t\t.button.loading {\n\t\t\t\tcolor: #eeeeee;\n\t\t\t}\n\n\t\t\t.button.loading:hover
+        {\n\t\t\t\tbackground-color: #eeeeee;\n\t\t\t}\n\n\t\t\t.button.loading:after
+        {\n\t\t\t\tcolor: #333333;\n\t\t\t}\n\n\t\t\t@media screen and ( min-width:
+        768px ) {\n\t\t\t\t.site-header-cart .widget_shopping_cart,\n\t\t\t\t.site-header
+        .product_list_widget li .quantity {\n\t\t\t\t\tcolor: #404040;\n\t\t\t\t}\n\t\t\t}\n</style>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/easy-property-listings/lib/assets/js/epl.js?ver=3.2.2'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar epl_frontend_vars = {\"epl_default_view_type\":\"list\",\"ajaxurl\":\"https:\\/\\/scrapeme.live\\/wp-admin\\/admin-ajax.php\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='https://scrapeme.live/wp-content/plugins/easy-property-listings/lib/assets/js/jquery-front-scripts.js?ver=3.2.2'></script>\n<link
+        rel='https://api.w.org/' href='https://scrapeme.live/wp-json/' />\n<link rel=\"EditURI\"
+        type=\"application/rsd+xml\" title=\"RSD\" href=\"https://scrapeme.live/xmlrpc.php?rsd\"
+        />\n<link rel=\"wlwmanifest\" type=\"application/wlwmanifest+xml\" href=\"https://scrapeme.live/wp-includes/wlwmanifest.xml\"
+        /> \n<meta name=\"generator\" content=\"WordPress 4.9.24\" />\n<meta name=\"generator\"
+        content=\"WooCommerce 3.4.8\" />\n<link rel=\"canonical\" href=\"https://scrapeme.live/shop/Squirtle/\"
+        />\n<link rel='shortlink' href='https://scrapeme.live/?p=734' />\n<link rel=\"alternate\"
+        type=\"application/json+oembed\" href=\"https://scrapeme.live/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fscrapeme.live%2Fshop%2FSquirtle%2F\"
+        />\n<!-- <script>\r\n    // Initialize an agent at application startup, once
+        per page/app.\r\n    const botdPromise = import('https://openfpcdn.io/botd/v1').then((Botd)
+        => Botd.load())\r\n    // Get detection results when you need them.\r\n    botdPromise\r\n
+        \       .then((botd) => botd.detect())\r\n        .then((result) => {\r\n
+        \           if (result['bot']){\r\n                window.location.replace(\"https://cdn.mos.cms.futurecdn.net/E5S3A5xLbETNBMcvzs2haY.jpg\")\r\n
+        \           }\r\n        })\r\n        .catch((error) => console.error(error))\r\n</script>
+        -->\t<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important;
+        }</style></noscript>\n\t\t\t<style type=\"text/css\">.recentcomments a{display:inline
+        !important;padding:0 !important;margin:0 !important;}</style>\n\t\t</head>\n\n<body
+        class=\"product-template-default single single-product postid-734 woocommerce
+        woocommerce-page woocommerce-no-js right-sidebar woocommerce-active storefront\">\n\n\n<div
+        id=\"page\" class=\"hfeed site\">\n\t\n\t<header id=\"masthead\" class=\"site-header\"
+        role=\"banner\" style=\"\">\n\n\t\t<div class=\"col-full\">\t\t<a class=\"skip-link
+        screen-reader-text\" href=\"#site-navigation\">Skip to navigation</a>\n\t\t<a
+        class=\"skip-link screen-reader-text\" href=\"#content\">Skip to content</a>\n\t\t\t\t<div
+        class=\"site-branding\">\n\t\t\t<div class=\"beta site-title\"><a href=\"https://scrapeme.live/\"
+        rel=\"home\">ScrapeMe</a></div><p class=\"site-description\">Just another
+        WordPress site</p>\t\t</div>\n\t\t\t\t\t<div class=\"site-search\">\n\t\t\t\t<div
+        class=\"widget woocommerce widget_product_search\"><form role=\"search\" method=\"get\"
+        class=\"woocommerce-product-search\" action=\"https://scrapeme.live/\">\n\t<label
+        class=\"screen-reader-text\" for=\"woocommerce-product-search-field-0\">Search
+        for:</label>\n\t<input type=\"search\" id=\"woocommerce-product-search-field-0\"
+        class=\"search-field\" placeholder=\"Search products&hellip;\" value=\"\"
+        name=\"s\" />\n\t<button type=\"submit\" value=\"Search\">Search</button>\n\t<input
+        type=\"hidden\" name=\"post_type\" value=\"product\" />\n</form>\n</div>\t\t\t</div>\n\t\t</div><div
+        class=\"storefront-primary-navigation\"><div class=\"col-full\">\t\t<nav id=\"site-navigation\"
+        class=\"main-navigation\" role=\"navigation\" aria-label=\"Primary Navigation\">\n\t\t<button
+        class=\"menu-toggle\" aria-controls=\"site-navigation\" aria-expanded=\"false\"><span>Menu</span></button>\n\t\t\t<div
+        class=\"menu\"><ul>\n<li ><a href=\"https://scrapeme.live/\">Home</a></li></ul></div>\n<div
+        class=\"menu\"><ul>\n<li ><a href=\"https://scrapeme.live/\">Home</a></li></ul></div>\n\t\t</nav><!--
+        #site-navigation -->\n\t\t\t\t<ul id=\"site-header-cart\" class=\"site-header-cart
+        menu\">\n\t\t\t<li class=\"\">\n\t\t\t\t\t\t\t<a class=\"cart-contents\" href=\"https://scrapeme.live\"
+        title=\"View your shopping basket\">\n\t\t\t\t<span class=\"woocommerce-Price-amount
+        amount\"><span class=\"woocommerce-Price-currencySymbol\">&pound;</span>0.00</span>
+        <span class=\"count\">0 items</span>\n\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<div
+        class=\"widget woocommerce widget_shopping_cart\"><div class=\"widget_shopping_cart_content\"></div></div>\t\t\t</li>\n\t\t</ul>\n\t\t</div></div>\n\t</header><!--
+        #masthead -->\n\n\t<div class=\"storefront-breadcrumb\"><div class=\"col-full\"><nav
+        class=\"woocommerce-breadcrumb\"><a href=\"https://scrapeme.live\">Home</a><span
+        class=\"breadcrumb-separator\"> / </span><a href=\"https://scrapeme.live/product-category/tiny-turtle/\">Tiny
+        Turtle</a><span class=\"breadcrumb-separator\"> / </span>Squirtle</nav></div></div>\n\t<div
+        id=\"content\" class=\"site-content\" tabindex=\"-1\">\n\t\t<div class=\"col-full\">\n\n\t\t<div
+        class=\"woocommerce\"></div>\n\t\t\t<div id=\"primary\" class=\"content-area\">\n\t\t\t<main
+        id=\"main\" class=\"site-main\" role=\"main\">\n\t\t\n\t\t\n\t\t\t<div id=\"product-734\"
+        class=\"post-734 product type-product status-publish has-post-thumbnail product_cat-pokemon
+        product_cat-tiny-turtle product_tag-squirtle product_tag-tiny-turtle product_tag-torrent
+        first instock sold-individually taxable shipping-taxable purchasable product-type-simple\">\n\n\t<div
+        class=\"woocommerce-product-gallery woocommerce-product-gallery--with-images
+        woocommerce-product-gallery--columns-4 images\" data-columns=\"4\" style=\"opacity:
+        0; transition: opacity .25s ease-in-out;\">\n\t<figure class=\"woocommerce-product-gallery__wrapper\">\n\t\t<div
+        data-thumb=\"https://scrapeme.live/wp-content/uploads/2018/08/007-100x100.png\"
+        class=\"woocommerce-product-gallery__image\"><a href=\"https://scrapeme.live/wp-content/uploads/2018/08/007.png\"><img
+        width=\"416\" height=\"416\" src=\"https://scrapeme.live/wp-content/uploads/2018/08/007.png\"
+        class=\"wp-post-image\" alt=\"\" title=\"007.png\" data-caption=\"\" data-src=\"https://scrapeme.live/wp-content/uploads/2018/08/007.png\"
+        data-large_image=\"https://scrapeme.live/wp-content/uploads/2018/08/007.png\"
+        data-large_image_width=\"475\" data-large_image_height=\"475\" srcset=\"https://scrapeme.live/wp-content/uploads/2018/08/007.png
+        475w, https://scrapeme.live/wp-content/uploads/2018/08/007-150x150.png 150w,
+        https://scrapeme.live/wp-content/uploads/2018/08/007-300x300.png 300w, https://scrapeme.live/wp-content/uploads/2018/08/007-100x100.png
+        100w, https://scrapeme.live/wp-content/uploads/2018/08/007-250x250.png 250w,
+        https://scrapeme.live/wp-content/uploads/2018/08/007-350x350.png 350w\" sizes=\"(max-width:
+        416px) 100vw, 416px\" /></a></div>\t</figure>\n</div>\n\n\t<div class=\"summary
+        entry-summary\">\n\t\t<h1 class=\"product_title entry-title\">Squirtle</h1><p
+        class=\"price\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&pound;</span>130.00</span></p>\n<div
+        class=\"woocommerce-product-details__short-description\">\n\t<p>Squirtle&#8217;s
+        shell is not merely used for protection. The shell&#8217;s rounded shape and
+        the grooves on its surface help minimize resistance in water, enabling this
+        Pokémon to swim at high speeds.</p>\n</div>\n<p class=\"stock in-stock\">178
+        in stock</p>\n\n\t\n\t<form class=\"cart\" action=\"https://scrapeme.live/shop/Squirtle/\"
+        method=\"post\" enctype='multipart/form-data'>\n\t\t\n\t\t\t<div class=\"quantity
+        hidden\">\n\t\t<input type=\"hidden\" id=\"quantity_65386318d5d44\" class=\"qty\"
+        name=\"quantity\" value=\"1\" />\n\t</div>\n\t\n\t\t<button type=\"submit\"
+        name=\"add-to-cart\" value=\"734\" class=\"single_add_to_cart_button button
+        alt\">Add to basket</button>\n\n\t\t\t</form>\n\n\t\n<div class=\"product_meta\">\n\n\t\n\t\n\t\t<span
+        class=\"sku_wrapper\">SKU: <span class=\"sku\">6094</span></span>\n\n\t\n\t<span
+        class=\"posted_in\">Categories: <a href=\"https://scrapeme.live/product-category/pokemon/\"
+        rel=\"tag\">Pokemon</a>, <a href=\"https://scrapeme.live/product-category/tiny-turtle/\"
+        rel=\"tag\">Tiny Turtle</a></span>\n\t<span class=\"tagged_as\">Tags: <a href=\"https://scrapeme.live/product-tag/squirtle/\"
+        rel=\"tag\">squirtle</a>, <a href=\"https://scrapeme.live/product-tag/tiny-turtle/\"
+        rel=\"tag\">Tiny Turtle</a>, <a href=\"https://scrapeme.live/product-tag/torrent/\"
+        rel=\"tag\">Torrent</a></span>\n\t\n</div>\n\n\t</div>\n\n\t\n\t<div class=\"woocommerce-tabs
+        wc-tabs-wrapper\">\n\t\t<ul class=\"tabs wc-tabs\" role=\"tablist\">\n\t\t\t\t\t\t\t<li
+        class=\"description_tab\" id=\"tab-title-description\" role=\"tab\" aria-controls=\"tab-description\">\n\t\t\t\t\t<a
+        href=\"#tab-description\">Description</a>\n\t\t\t\t</li>\n\t\t\t\t\t\t\t<li
+        class=\"additional_information_tab\" id=\"tab-title-additional_information\"
+        role=\"tab\" aria-controls=\"tab-additional_information\">\n\t\t\t\t\t<a href=\"#tab-additional_information\">Additional
+        information</a>\n\t\t\t\t</li>\n\t\t\t\t\t\t\t<li class=\"reviews_tab\" id=\"tab-title-reviews\"
+        role=\"tab\" aria-controls=\"tab-reviews\">\n\t\t\t\t\t<a href=\"#tab-reviews\">Reviews
+        (0)</a>\n\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<div class=\"woocommerce-Tabs-panel
+        woocommerce-Tabs-panel--description panel entry-content wc-tab\" id=\"tab-description\"
+        role=\"tabpanel\" aria-labelledby=\"tab-title-description\">\n\t\t\t\t\n  <h2>Description</h2>\n\n<p>Squirtle&#8217;s
+        shell is not merely used for protection. The shell&#8217;s rounded shape and
+        the grooves on its surface help minimize resistance in water, enabling this
+        Pokémon to swim at high speeds.</p>\n\t\t\t</div>\n\t\t\t\t\t<div class=\"woocommerce-Tabs-panel
+        woocommerce-Tabs-panel--additional_information panel entry-content wc-tab\"
+        id=\"tab-additional_information\" role=\"tabpanel\" aria-labelledby=\"tab-title-additional_information\">\n\t\t\t\t\n\t<h2>Additional
+        information</h2>\n\n<table class=\"shop_attributes\">\n\t\t\t<tr>\n\t\t\t<th>Weight</th>\n\t\t\t<td
+        class=\"product_weight\">19.8 kg</td>\n\t\t</tr>\n\t\n\t\t\t<tr>\n\t\t\t<th>Dimensions</th>\n\t\t\t<td
+        class=\"product_dimensions\">1 x 1 x 1 cm</td>\n\t\t</tr>\n\t\n\t</table>\n\t\t\t</div>\n\t\t\t\t\t<div
+        class=\"woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content
+        wc-tab\" id=\"tab-reviews\" role=\"tabpanel\" aria-labelledby=\"tab-title-reviews\">\n\t\t\t\t<div
+        id=\"reviews\" class=\"woocommerce-Reviews\">\n\t<div id=\"comments\">\n\t\t<h2
+        class=\"woocommerce-Reviews-title\">Reviews</h2>\n\n\t\t\n\t\t\t<p class=\"woocommerce-noreviews\">There
+        are no reviews yet.</p>\n\n\t\t\t</div>\n\n\t\n\t\t<div id=\"review_form_wrapper\">\n\t\t\t<div
+        id=\"review_form\">\n\t\t\t\t\t<div id=\"respond\" class=\"comment-respond\">\n\t\t<span
+        id=\"reply-title\" class=\"comment-reply-title\">Be the first to review &ldquo;Squirtle&rdquo;
+        <small><a rel=\"nofollow\" id=\"cancel-comment-reply-link\" href=\"/shop/Squirtle/#respond\"
+        style=\"display:none;\">Cancel reply</a></small></span>\t\t\t<form action=\"https://scrapeme.live/wp-comments-post.php\"
+        method=\"post\" id=\"commentform\" class=\"comment-form\" novalidate>\n\t\t\t\t<p
+        class=\"comment-notes\"><span id=\"email-notes\">Your email address will not
+        be published.</span> Required fields are marked <span class=\"required\">*</span></p><div
+        class=\"comment-form-rating\"><label for=\"rating\">Your rating</label><select
+        name=\"rating\" id=\"rating\" aria-required=\"true\" required>\n\t\t\t\t\t\t\t<option
+        value=\"\">Rate&hellip;</option>\n\t\t\t\t\t\t\t<option value=\"5\">Perfect</option>\n\t\t\t\t\t\t\t<option
+        value=\"4\">Good</option>\n\t\t\t\t\t\t\t<option value=\"3\">Average</option>\n\t\t\t\t\t\t\t<option
+        value=\"2\">Not that bad</option>\n\t\t\t\t\t\t\t<option value=\"1\">Very
+        poor</option>\n\t\t\t\t\t\t</select></div><p class=\"comment-form-comment\"><label
+        for=\"comment\">Your review&nbsp;<span class=\"required\">*</span></label><textarea
+        id=\"comment\" name=\"comment\" cols=\"45\" rows=\"8\" aria-required=\"true\"
+        required></textarea></p><p class=\"comment-form-author\"><label for=\"author\">Name&nbsp;<span
+        class=\"required\">*</span></label> <input id=\"author\" name=\"author\" type=\"text\"
+        value=\"\" size=\"30\" aria-required=\"true\" required /></p>\n<p class=\"comment-form-email\"><label
+        for=\"email\">Email&nbsp;<span class=\"required\">*</span></label> <input
+        id=\"email\" name=\"email\" type=\"email\" value=\"\" size=\"30\" aria-required=\"true\"
+        required /></p>\n<p class=\"form-submit\"><input name=\"submit\" type=\"submit\"
+        id=\"submit\" class=\"submit\" value=\"Submit\" /> <input type='hidden' name='comment_post_ID'
+        value='734' id='comment_post_ID' />\n<input type='hidden' name='comment_parent'
+        id='comment_parent' value='0' />\n</p>\t\t\t</form>\n\t\t\t</div><!-- #respond
+        -->\n\t\t\t\t</div>\n\t\t</div>\n\n\t\n\t<div class=\"clear\"></div>\n</div>\n\t\t\t</div>\n\t\t\t</div>\n\n\n\t<section
+        class=\"related products\">\n\n\t\t<h2>Related products</h2>\n\n\t\t<ul class=\"products
+        columns-3\">\n\n\t\t\t\n\t\t\t\t<li class=\"post-749 product type-product
+        status-publish has-post-thumbnail product_cat-beak product_cat-pokemon product_tag-beak
+        product_tag-fearow product_tag-keen-eye first instock taxable shipping-taxable
+        purchasable product-type-simple\">\n\t<a href=\"https://scrapeme.live/shop/Fearow/\"
+        class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img
+        width=\"324\" height=\"324\" src=\"https://scrapeme.live/wp-content/uploads/2018/08/022-350x350.png\"
+        class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image\"
+        alt=\"\" srcset=\"https://scrapeme.live/wp-content/uploads/2018/08/022-350x350.png
+        350w, https://scrapeme.live/wp-content/uploads/2018/08/022-150x150.png 150w,
+        https://scrapeme.live/wp-content/uploads/2018/08/022-300x300.png 300w, https://scrapeme.live/wp-content/uploads/2018/08/022-100x100.png
+        100w, https://scrapeme.live/wp-content/uploads/2018/08/022-250x250.png 250w,
+        https://scrapeme.live/wp-content/uploads/2018/08/022.png 475w\" sizes=\"(max-width:
+        324px) 100vw, 324px\" /><h2 class=\"woocommerce-loop-product__title\">Fearow</h2>\n\t<span
+        class=\"price\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&pound;</span>95.00</span></span>\n</a><a
+        href=\"/shop/Squirtle/?add-to-cart=749\" data-quantity=\"1\" class=\"button
+        product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"749\"
+        data-product_sku=\"9127\" aria-label=\"Add &ldquo;Fearow&rdquo; to your basket\"
+        rel=\"nofollow\">Add to basket</a></li>\n\n\t\t\t\n\t\t\t\t<li class=\"post-735
+        product type-product status-publish has-post-thumbnail product_cat-pokemon
+        product_cat-turtle product_tag-torrent product_tag-turtle product_tag-wartortle
+        instock sold-individually taxable shipping-taxable purchasable product-type-simple\">\n\t<a
+        href=\"https://scrapeme.live/shop/Wartortle/\" class=\"woocommerce-LoopProduct-link
+        woocommerce-loop-product__link\"><img width=\"324\" height=\"324\" src=\"https://scrapeme.live/wp-content/uploads/2018/08/008-350x350.png\"
+        class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image\"
+        alt=\"\" srcset=\"https://scrapeme.live/wp-content/uploads/2018/08/008-350x350.png
+        350w, https://scrapeme.live/wp-content/uploads/2018/08/008-150x150.png 150w,
+        https://scrapeme.live/wp-content/uploads/2018/08/008-300x300.png 300w, https://scrapeme.live/wp-content/uploads/2018/08/008-100x100.png
+        100w, https://scrapeme.live/wp-content/uploads/2018/08/008-250x250.png 250w,
+        https://scrapeme.live/wp-content/uploads/2018/08/008.png 475w\" sizes=\"(max-width:
+        324px) 100vw, 324px\" /><h2 class=\"woocommerce-loop-product__title\">Wartortle</h2>\n\t<span
+        class=\"price\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&pound;</span>123.00</span></span>\n</a><a
+        href=\"/shop/Squirtle/?add-to-cart=735\" data-quantity=\"1\" class=\"button
+        product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"735\"
+        data-product_sku=\"9659\" aria-label=\"Add &ldquo;Wartortle&rdquo; to your
+        basket\" rel=\"nofollow\">Add to basket</a></li>\n\n\t\t\t\n\t\t\t\t<li class=\"post-739
+        product type-product status-publish has-post-thumbnail product_cat-butterfly
+        product_cat-pokemon product_tag-butterfly product_tag-butterfree product_tag-compound-eyes
+        last instock sold-individually taxable shipping-taxable purchasable product-type-simple\">\n\t<a
+        href=\"https://scrapeme.live/shop/Butterfree/\" class=\"woocommerce-LoopProduct-link
+        woocommerce-loop-product__link\"><img width=\"324\" height=\"324\" src=\"https://scrapeme.live/wp-content/uploads/2018/08/012-350x350.png\"
+        class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image\"
+        alt=\"\" srcset=\"https://scrapeme.live/wp-content/uploads/2018/08/012-350x350.png
+        350w, https://scrapeme.live/wp-content/uploads/2018/08/012-150x150.png 150w,
+        https://scrapeme.live/wp-content/uploads/2018/08/012-300x300.png 300w, https://scrapeme.live/wp-content/uploads/2018/08/012-100x100.png
+        100w, https://scrapeme.live/wp-content/uploads/2018/08/012-250x250.png 250w,
+        https://scrapeme.live/wp-content/uploads/2018/08/012.png 475w\" sizes=\"(max-width:
+        324px) 100vw, 324px\" /><h2 class=\"woocommerce-loop-product__title\">Butterfree</h2>\n\t<span
+        class=\"price\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&pound;</span>162.00</span></span>\n</a><a
+        href=\"/shop/Squirtle/?add-to-cart=739\" data-quantity=\"1\" class=\"button
+        product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"739\"
+        data-product_sku=\"9507\" aria-label=\"Add &ldquo;Butterfree&rdquo; to your
+        basket\" rel=\"nofollow\">Add to basket</a></li>\n\n\t\t\t\n\t\t</ul>\n\n\t</section>\n\n\t\t<nav
+        class=\"storefront-product-pagination\" aria-label=\"More products\">\n\t\t\t\t\t\t\t<a
+        href=\"https://scrapeme.live/shop/Charizard/\" rel=\"prev\"><img width=\"324\"
+        height=\"324\" src=\"https://scrapeme.live/wp-content/uploads/2018/08/006-350x350.png\"
+        class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image\"
+        alt=\"\" /><span class=\"storefront-product-pagination__title\">Charizard</span></a>\t\t\t\n\t\t\t\t\t\t\t<a
+        href=\"https://scrapeme.live/shop/Blastoise/\" rel=\"next\"><img width=\"324\"
+        height=\"324\" src=\"https://scrapeme.live/wp-content/uploads/2018/08/009-350x350.png\"
+        class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image\"
+        alt=\"\" /><span class=\"storefront-product-pagination__title\">Blastoise</span></a>\t\t\t\t\t</nav><!--
+        .storefront-product-pagination -->\n\t\t</div>\n\n\n\t\t\n\t\t\t\t</main><!--
+        #main -->\n\t\t</div><!-- #primary -->\n\n\t\t\n<div id=\"secondary\" class=\"widget-area\"
+        role=\"complementary\">\n\t<div id=\"search-2\" class=\"widget widget_search\"><form
+        role=\"search\" method=\"get\" class=\"search-form\" action=\"https://scrapeme.live/\">\n\t\t\t\t<label>\n\t\t\t\t\t<span
+        class=\"screen-reader-text\">Search for:</span>\n\t\t\t\t\t<input type=\"search\"
+        class=\"search-field\" placeholder=\"Search &hellip;\" value=\"\" name=\"s\"
+        />\n\t\t\t\t</label>\n\t\t\t\t<input type=\"submit\" class=\"search-submit\"
+        value=\"Search\" />\n\t\t\t</form></div><div id=\"recent-comments-2\" class=\"widget
+        widget_recent_comments\"><span class=\"gamma widget-title\">Recent Comments</span><ul
+        id=\"recentcomments\"></ul></div><div id=\"archives-2\" class=\"widget widget_archive\"><span
+        class=\"gamma widget-title\">Archives</span>\t\t<ul>\n\t\t\t\t</ul>\n\t\t</div><div
+        id=\"categories-2\" class=\"widget widget_categories\"><span class=\"gamma
+        widget-title\">Categories</span>\t\t<ul>\n<li class=\"cat-item-none\">No categories</li>\t\t</ul>\n</div><div
+        id=\"meta-2\" class=\"widget widget_meta\"><span class=\"gamma widget-title\">Meta</span>\t\t\t<ul>\n\t\t\t\t\t\t<li><a
+        href=\"https://scrapeme.live/wp-login.php\">Log in</a></li>\n\t\t\t<li><a
+        href=\"https://scrapeme.live/feed/\">Entries <abbr title=\"Really Simple Syndication\">RSS</abbr></a></li>\n\t\t\t<li><a
+        href=\"https://scrapeme.live/comments/feed/\">Comments <abbr title=\"Really
+        Simple Syndication\">RSS</abbr></a></li>\n\t\t\t<li><a href=\"https://wordpress.org/\"
+        title=\"Powered by WordPress, state-of-the-art semantic personal publishing
+        platform.\">WordPress.org</a></li>\t\t\t</ul>\n\t\t\t</div></div><!-- #secondary
+        -->\n\n\t\n\n\t\t</div><!-- .col-full -->\n\t</div><!-- #content -->\n\n\t\n\t<footer
+        id=\"colophon\" class=\"site-footer\" role=\"contentinfo\">\n\t\t<div class=\"col-full\">\n\n\t\t\t\t\t<div
+        class=\"site-info\">\n\t\t\t&copy; ScrapeMe 2023\t\t\t\t\t\t<br />\n\t\t\t\t\t\t<a
+        href=\"https://woocommerce.com\" target=\"_blank\" title=\"WooCommerce - The
+        Best eCommerce Platform for WordPress\" rel=\"author\">Built with Storefront
+        &amp; WooCommerce</a>.\t\t\t\t\t</div><!-- .site-info -->\n\t\t\t\t<div class=\"storefront-handheld-footer-bar\">\n\t\t\t<ul
+        class=\"columns-1\">\n\t\t\t\t\t\t\t\t\t<li class=\"search\">\n\t\t\t\t\t\t<a
+        href=\"\">Search</a>\t\t\t<div class=\"site-search\">\n\t\t\t\t<div class=\"widget
+        woocommerce widget_product_search\"><form role=\"search\" method=\"get\" class=\"woocommerce-product-search\"
+        action=\"https://scrapeme.live/\">\n\t<label class=\"screen-reader-text\"
+        for=\"woocommerce-product-search-field-1\">Search for:</label>\n\t<input type=\"search\"
+        id=\"woocommerce-product-search-field-1\" class=\"search-field\" placeholder=\"Search
+        products&hellip;\" value=\"\" name=\"s\" />\n\t<button type=\"submit\" value=\"Search\">Search</button>\n\t<input
+        type=\"hidden\" name=\"post_type\" value=\"product\" />\n</form>\n</div>\t\t\t</div>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t</div>\n\t\t\n\t\t</div><!--
+        .col-full -->\n\t</footer><!-- #colophon -->\n\n\t\t\t\t<section class=\"storefront-sticky-add-to-cart\">\n\t\t\t\t<div
+        class=\"col-full\">\n\t\t\t\t\t<div class=\"storefront-sticky-add-to-cart__content\">\n\t\t\t\t\t\t<img
+        width=\"324\" height=\"324\" src=\"https://scrapeme.live/wp-content/uploads/2018/08/007-350x350.png\"
+        class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image\"
+        alt=\"\" />\t\t\t\t\t\t<div class=\"storefront-sticky-add-to-cart__content-product-info\">\n\t\t\t\t\t\t\t<span
+        class=\"storefront-sticky-add-to-cart__content-title\">You&#039;re viewing:
+        <strong>Squirtle</strong></span>\n\t\t\t\t\t\t\t<span class=\"storefront-sticky-add-to-cart__content-price\"><span
+        class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&pound;</span>130.00</span></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<a
+        href=\"/shop/Squirtle/?add-to-cart=734\" class=\"storefront-sticky-add-to-cart__content-button
+        button alt\">\n\t\t\t\t\t\t\tAdd to basket\t\t\t\t\t\t</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</section><!--
+        .storefront-sticky-add-to-cart -->\n\t\t\n</div><!-- #page -->\n\n<script
+        type=\"application/ld+json\">{\"@context\":\"https:\\/\\/schema.org\\/\",\"@graph\":[{\"@context\":\"https:\\/\\/schema.org\\/\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":\"1\",\"item\":{\"name\":\"Home\",\"@id\":\"https:\\/\\/scrapeme.live\"}},{\"@type\":\"ListItem\",\"position\":\"2\",\"item\":{\"name\":\"Tiny
+        Turtle\",\"@id\":\"https:\\/\\/scrapeme.live\\/product-category\\/tiny-turtle\\/\"}},{\"@type\":\"ListItem\",\"position\":\"3\",\"item\":{\"name\":\"Squirtle\"}}]},{\"@context\":\"https:\\/\\/schema.org\\/\",\"@type\":\"Product\",\"@id\":\"https:\\/\\/scrapeme.live\\/shop\\/Squirtle\\/\",\"name\":\"Squirtle\",\"image\":\"https:\\/\\/scrapeme.live\\/wp-content\\/uploads\\/2018\\/08\\/007.png\",\"description\":\"Squirtle's
+        shell is not merely used for protection. The shell's rounded shape and the
+        grooves on its surface help minimize resistance in water, enabling this Pok\\u00e9mon
+        to swim at high speeds.\",\"sku\":\"6094\",\"offers\":[{\"@type\":\"Offer\",\"price\":\"130.00\",\"priceSpecification\":{\"price\":\"130.00\",\"priceCurrency\":\"GBP\",\"valueAddedTaxIncluded\":\"false\"},\"priceCurrency\":\"GBP\",\"availability\":\"https:\\/\\/schema.org\\/InStock\",\"url\":\"https:\\/\\/scrapeme.live\\/shop\\/Squirtle\\/\",\"seller\":{\"@type\":\"Organization\",\"name\":\"ScrapeMe\",\"url\":\"https:\\/\\/scrapeme.live\"}}]}]}</script>\n<div
+        class=\"pswp\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n\t<div
+        class=\"pswp__bg\"></div>\n\t<div class=\"pswp__scroll-wrap\">\n\t\t<div class=\"pswp__container\">\n\t\t\t<div
+        class=\"pswp__item\"></div>\n\t\t\t<div class=\"pswp__item\"></div>\n\t\t\t<div
+        class=\"pswp__item\"></div>\n\t\t</div>\n\t\t<div class=\"pswp__ui pswp__ui--hidden\">\n\t\t\t<div
+        class=\"pswp__top-bar\">\n\t\t\t\t<div class=\"pswp__counter\"></div>\n\t\t\t\t<button
+        class=\"pswp__button pswp__button--close\" aria-label=\"Close (Esc)\"></button>\n\t\t\t\t<button
+        class=\"pswp__button pswp__button--share\" aria-label=\"Share\"></button>\n\t\t\t\t<button
+        class=\"pswp__button pswp__button--fs\" aria-label=\"Toggle fullscreen\"></button>\n\t\t\t\t<button
+        class=\"pswp__button pswp__button--zoom\" aria-label=\"Zoom in/out\"></button>\n\t\t\t\t<div
+        class=\"pswp__preloader\">\n\t\t\t\t\t<div class=\"pswp__preloader__icn\">\n\t\t\t\t\t\t<div
+        class=\"pswp__preloader__cut\">\n\t\t\t\t\t\t\t<div class=\"pswp__preloader__donut\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div
+        class=\"pswp__share-modal pswp__share-modal--hidden pswp__single-tap\">\n\t\t\t\t<div
+        class=\"pswp__share-tooltip\"></div>\n\t\t\t</div>\n\t\t\t<button class=\"pswp__button
+        pswp__button--arrow--left\" aria-label=\"Previous (arrow left)\"></button>\n\t\t\t<button
+        class=\"pswp__button pswp__button--arrow--right\" aria-label=\"Next (arrow
+        right)\"></button>\n\t\t\t<div class=\"pswp__caption\">\n\t\t\t\t<div class=\"pswp__caption__center\"></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\t<script
+        type=\"text/javascript\">\n\t\tvar c = document.body.className;\n\t\tc = c.replace(/woocommerce-no-js/,
+        'woocommerce-js');\n\t\tdocument.body.className = c;\n\t</script>\n\t<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.14-6684'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar wc_add_to_cart_params = {\"ajax_url\":\"\\/wp-admin\\/admin-ajax.php\",\"wc_ajax_url\":\"\\/?wc-ajax=%%endpoint%%\",\"i18n_view_cart\":\"View
+        basket\",\"cart_url\":\"https:\\/\\/scrapeme.live\",\"is_cart\":\"\",\"cart_redirect_after_add\":\"no\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.4.8'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.1'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar wc_single_product_params = {\"i18n_required_rating_text\":\"Please
+        select a rating\",\"review_rating_required\":\"yes\",\"flexslider\":{\"rtl\":false,\"animation\":\"slide\",\"smoothHeight\":true,\"directionNav\":false,\"controlNav\":\"thumbnails\",\"slideshow\":false,\"animationSpeed\":500,\"animationLoop\":false,\"allowOneSlide\":false},\"zoom_enabled\":\"1\",\"zoom_options\":[],\"photoswipe_enabled\":\"1\",\"photoswipe_options\":{\"shareEl\":false,\"closeOnScroll\":false,\"history\":false,\"hideAnimationDuration\":0,\"showAnimationDuration\":0},\"flexslider_enabled\":\"1\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=3.4.8'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar woocommerce_params = {\"ajax_url\":\"\\/wp-admin\\/admin-ajax.php\",\"wc_ajax_url\":\"\\/?wc-ajax=%%endpoint%%\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.4.8'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar wc_cart_fragments_params = {\"ajax_url\":\"\\/wp-admin\\/admin-ajax.php\",\"wc_ajax_url\":\"\\/?wc-ajax=%%endpoint%%\",\"cart_hash_key\":\"wc_cart_hash_d4113877938f700a0b9d0521465fe1ca\",\"fragment_name\":\"wc_fragments_d4113877938f700a0b9d0521465fe1ca\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='https://scrapeme.live/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.4.8'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/themes/storefront/assets/js/navigation.min.js?ver=2.3.3'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/themes/storefront/assets/js/skip-link-focus-fix.min.js?ver=20130115'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-includes/js/comment-reply.min.js?ver=4.9.24'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-content/themes/storefront/assets/js/woocommerce/header-cart.min.js?ver=2.3.3'></script>\n<script
+        type='text/javascript' src='https://scrapeme.live/wp-includes/js/wp-embed.min.js?ver=4.9.24'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar storefront_sticky_add_to_cart_params
+        = {\"trigger_class\":\"entry-summary\"};\n/* ]]> */\n</script>\n<script type='text/javascript'
+        src='https://scrapeme.live/wp-content/themes/storefront/assets/js/sticky-add-to-cart.min.js?ver=2.3.3'></script>\n\n</body>\n</html>\n"
+  recorded_at: Wed, 25 Oct 2023 00:36:40 GMT
+recorded_with: VCR 6.2.0

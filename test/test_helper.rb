@@ -1,6 +1,7 @@
 ENV["RAILS_ENV"] ||= "test"
 require_relative "../config/environment"
 require "rails/test_help"
+require_relative 'vcr_cassete/vcr_setup'
 
 module ActiveSupport
   class TestCase
