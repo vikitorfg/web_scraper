@@ -18,6 +18,7 @@ gem "bootsnap", require: false
 # Webscraping
 gem 'nokogiri', '~> 1.15', '>= 1.15.4'
 gem 'faraday', '~> 2.7', '>= 2.7.11'
+gem 'sidekiq', '~> 7.0', '>= 7.0.9'
 
 # CSS
 gem 'bulma-rails', '~> 0.9.4'

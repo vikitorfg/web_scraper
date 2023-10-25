@@ -19,14 +19,8 @@ class ScrapedLinksController < ApplicationController
     @scraped_link = ScrapedLink.new(scraped_link_params)
 
     if @scraped_link.save
-      # TODO - make it a sidekiq per event basis
-      web_scraper = WebScraperService.new(@scraped_link.id).run
-      if web_scraper[:success]
-        redirect_to scraped_links_url, notice: "Scraped link was successfully created."
-      else
-        @scraped_link.destroy
-        redirect_to scraped_links_url, alert: "There was an error scraping the url you provided"
-      end
+      ScraperJob.perform_async(@scraped_link.id)
+      redirect_to scraped_links_url, notice: "Scraped link was created and is being processed."
     else
       redirect_to scraped_links_url, alert: "There was an error scraping the url you provided"
     end

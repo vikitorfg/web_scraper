@@ -23,14 +23,14 @@ class WebScraperService
       links.map { |link| create_individual_link(link) }
 
       # This should probably go in the worker later, perhaps?
-      if @scraped_link.update(total: links.count, name: name)
-        return { success: true, model: @scraped_link }
+      if @scraped_link.update(total: links.count, name: name, status: 'completed')
+        return
       end
 
-      return { success: false, errors: @scraped_link.errors.messages }
+      @scraped_link.update(name: name, status: 'error')
     else
       # Handle the case where the GET request is not successful
-      return { success: false, errors: response.status }
+      @scraped_link.update(name: name, status: 'error')
     end
   end
 

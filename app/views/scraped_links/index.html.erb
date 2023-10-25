@@ -12,6 +12,7 @@
             <tr>
               <th>Name</th>
               <th>Total</th>
+              <th>Status</th>
             </tr>
           </thead>
           <tbody>
@@ -21,6 +22,7 @@
                   <%= link_to scraped_link.name, scraped_link, class: 'has-text-info' %>
                 </td>
                 <td><%= scraped_link.total %></td>
+                <td><%= scraped_link.status %></td>
               </tr>
             <% end %>
           </tbody>
