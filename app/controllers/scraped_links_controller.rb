@@ -24,10 +24,11 @@ class ScrapedLinksController < ApplicationController
       if web_scraper[:success]
         redirect_to scraped_links_url, notice: "Scraped link was successfully created."
       else
-        render :new, status: :unprocessable_entity 
+        @scraped_link.destroy
+        redirect_to scraped_links_url, alert: "There was an error scraping the url you provided"
       end
     else
-      render :new, status: :unprocessable_entity 
+      redirect_to scraped_links_url, alert: "There was an error scraping the url you provided"
     end
   end
 

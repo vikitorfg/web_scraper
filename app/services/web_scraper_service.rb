@@ -30,7 +30,7 @@ class WebScraperService
       return { success: false, errors: @scraped_link.errors.messages }
     else
       # Handle the case where the GET request is not successful
-      return { success: false, errors: response.errors }
+      return { success: false, errors: response.status }
     end
   end
 
