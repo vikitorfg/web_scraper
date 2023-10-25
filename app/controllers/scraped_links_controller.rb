@@ -1,14 +1,16 @@
 class ScrapedLinksController < ApplicationController
   before_action :set_scraped_link, only: %i[ show destroy ]
+  before_action :authenticate_user!
 
   # GET /scraped_links or /scraped_links.json
   def index
-    scraped_links = ScrapedLink.all.order(created_at: :desc)
+    scraped_links = policy_scope(ScrapedLink.order(created_at: :desc))
     @pagy, @scraped_links = pagy(scraped_links)
   end
 
   # GET /scraped_links/1 or /scraped_links/1.json
   def show
+    authorize @scraped_link, :show?
     @pagy, @individual_links = pagy(@scraped_link.individual_links)
   end
 
@@ -46,6 +48,6 @@ class ScrapedLinksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def scraped_link_params
-      params.require(:scraped_link).permit(:link)
+      params.require(:scraped_link).permit(:link).merge(user_id: current_user.id)
     end
 end

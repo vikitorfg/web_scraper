@@ -25,6 +25,10 @@ gem 'bulma-rails', '~> 0.9.4'
 # Pagination
 gem 'pagy', '~> 6.1'
 
+# Authentication
+gem 'devise', '~> 4.9', '>= 4.9.3'
+gem 'pundit', '~> 2.3', '>= 2.3.1'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
